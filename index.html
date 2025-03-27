@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Elements Demo</title>
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List (Roman Numerals)</h2>
+    <ol type="I">
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+        <li>Fourth Item</li>
+        <li>Fifth Item</li>
+    </ol>
+
+    <!-- External Image -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="Sample Image from Pexels" width="600">
+
+    <!-- Contact Table -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>123 Street, City</td>
+            <td>+233456789</td>
+            <td>johndoe@example.com</td>
+        </tr>
+        <tr>
+            <td>Jane Anyango</td>
+            <td>456 Kisumu, City</td>
+            <td>+234654321</td>
+            <td>anyangojane@example.com</td>
+        </tr>
+        <tr>
+            <td>Mike Tyson</td>
+            <td>235 Kidogo, City</td>
+            <td>+234837465</td>
+            <td>miketyson@example.com</td>
+        </tr>
+        <tr>
+            <td>Billy Jerry</td>
+            <td>288 Lami, City</td>
+            <td>+254938475</td>
+            <td>billyjerry@example.com</td>
+        </tr>
+        <tr>
+            <td>Chris Ofweneke</td>
+            <td>Riverroad Street, City</td>
+            <td>+2337382910</td>
+            <td>chrisofweneke@example.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <!-- Dropdown List -->
+        <label for="country">Select Country:</label>
+        <select id="country" name="country" required>
+            <option value="">--Select--</option>
+            <option value="Kenya">Kenya</option>
+            <option value="China">China</option>
+            <option value="Tanzania">Tanzania</option>
+            <option value="Uganda">Uganda</option>
+        </select>
+        <br><br>
+
+        <!-- Radio Buttons -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other" required>
+        <label for="other">Other</label>
+        <br><br>
+
+        <!-- Checkboxes -->
+        <p>Hobbies:</p>
+        <input type="checkbox" id="reading" name="hobby" value="Reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="traveling" name="hobby" value="Traveling">
+        <label for="traveling">Traveling</label>
+        <input type="checkbox" id="sports" name="hobby" value="Sports">
+        <label for="sports">Sports</label>
+        <br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- Multimedia Elements -->
+    <h2>Multimedia Elements</h2>
+    <h3>Audio</h3>
+    <audio controls>
+        <source src="sample-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <h3>Video</h3>
+    <video controls width="600">
+        <source src="sample-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>
